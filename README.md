@@ -50,7 +50,7 @@ Here's what makes this thing tick (warning: some of this might sound like I'm sh
 
 **Step 1: Grab the code**
 ```bash
-git clone https://github.com/yourusername/advanced-yolo-detection.git
+git clone https://github.com/Shaku-Med/Real-Time-Object-Detect.git
 cd advanced-yolo-detection
 ```
 
@@ -254,7 +254,7 @@ The system has a bunch of helper classes that do the heavy lifting:
 I'd love some help making this even better! Here's how to get started:
 
 ```bash
-git clone https://github.com/yourusername/advanced-yolo-detection.git
+git clone https://github.com/Shaku-Med/Real-Time-Object-Detect.git
 cd advanced-yolo-detection
 pip install -r requirements.txt
 python -m pytest tests/

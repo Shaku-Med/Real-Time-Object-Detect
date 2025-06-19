@@ -1,0 +1,24 @@
+class Config:
+    YOLO_WEIGHTS_PATH = "yolov4.weights"
+    YOLO_CONFIG_PATH = "yolov4.cfg"
+    YOLO_CLASSES_PATH = "coco.names"
+    
+    CONFIDENCE_THRESHOLD = 0.6
+    NMS_THRESHOLD = 0.3
+    
+    CAMERA_INDEX = 0
+    WINDOW_NAME = "Advanced Object Detection"
+    
+    FRAME_WIDTH = 640
+    FRAME_HEIGHT = 480
+    FRAME_FPS = 30
+    
+    YOLO_INPUT_SIZE = 416
+    FPS_UPDATE_INTERVAL = 30
+    
+    TEMPORAL_FILTER_HISTORY = 15
+    TEMPORAL_STABILITY_THRESHOLD = 0.4
+    MOTION_THRESHOLD = 0.005
+    ENSEMBLE_THRESHOLDS = [0.3, 0.5, 0.7]
+    CONFIDENCE_CALIBRATION_WINDOW = 200
+    CLASS_AWARE_NMS = True 
